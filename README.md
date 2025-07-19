@@ -7,7 +7,7 @@ A lightweight, dual-agent interaction system for 2D shadow puppetry digital huma
   ![Static Badge](https://img.shields.io/badge/python-3.10%2B-green)   ![Static Badge](https://img.shields.io/badge/support-Windows%26Linux-purple)    ![Static Badge](https://img.shields.io/badge/license-MIT-orange)
 
 
-## 📦 Requirements
+## Requirements
 
 Before running the system, make sure the following components are ready:
 
@@ -31,7 +31,7 @@ project_root/
 
 ---
 
-## 🚀 Run the Digital Human
+## Run the Digital Human
 
 To start the digital human interaction system with LLM functionality, run:
 
@@ -41,15 +41,15 @@ python main.py
 
 ---
 
-## 🕹️ How to Interact
+## How to Interact
 
 Once the interface is running, you can interact in two modes:
 
-### 📝 Text Mode
+### Text Mode
 
 - Type Chinese text directly into the input box as a prompt.
 
-### 🎙️ Voice Mode
+###  Voice Mode
 
 - Click the **Text Mode** button to switch to voice interaction.
 - Press the **Space** key to start recording.
