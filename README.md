@@ -57,3 +57,6 @@ Once the interface is running, you can interact in two modes:
 - The recognized speech will appear in the top-left corner of the screen.
 
 ---
+### Demo picture
+<img width="1800" height="1040" alt="Snipaste_2025-07-19_12-10-16" src="https://github.com/user-attachments/assets/b817d3f7-a422-4d03-8d41-ae33974ad774" />
+
