@@ -4,8 +4,12 @@ A lightweight, dual-agent interaction system for 2D shadow puppetry digital huma
 
 <img width="1168" height="395" alt="LOGO" src="https://github.com/user-attachments/assets/8633971e-b5b4-4eff-a169-3ced06b35a86" />
 
-  ![Static Badge](https://img.shields.io/badge/python-3.10%2B-green)   ![Static Badge](https://img.shields.io/badge/support-Windows%26Linux-purple)    ![Static Badge](https://img.shields.io/badge/license-MIT-orange)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.10%2B-green" />
+  <img src="https://img.shields.io/badge/support-Windows%26Linux-purple" />
+  <img src="https://img.shields.io/badge/license-MIT-orange" />
+</p>
 
 ## Requirements
 
