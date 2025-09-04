@@ -46,7 +46,7 @@ FPS = 45
 REC_FS = 16000
 REC_CHANNELS = 1
 REC_BLOCKSIZE = 4000
-VOSK_MODEL_PATH = "model-cn/vosk-model-cn-0.22"
+VOSK_MODEL_PATH = "model-cn/vosk-model-small-cn-0.22"
 
 
 UI_COLORS = {
