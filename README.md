@@ -1,15 +1,19 @@
 # Shadow Puppetry Digital Human
 
-A lightweight, dual-agent interaction system for 2D shadow puppetry digital humans, powered by LLMs and designed for low-resource environments.
+A lightweight, dual-agent interaction system for 2D shadow puppetry digital humans, powered by LLMs and designed for low-resource environments.  
 
 <img width="1168" height="395" alt="LOGO" src="https://github.com/user-attachments/assets/8633971e-b5b4-4eff-a169-3ced06b35a86" />
 
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.10%2B-green" />
-  <img src="https://img.shields.io/badge/support-Windows%26Linux-purple" />
-  <img src="https://img.shields.io/badge/license-MIT-orange" />
+  <img src="https://img.shields.io/badge/support-Windows%26Linux-purple" />  
+  <img src="https://img.shields.io/badge/license-MIT-orange" />  
 </p>
+
+
+https://github.com/user-attachments/assets/b3130aa4-ccf3-402f-bdf9-b28a18996320
+
 
 ## Requirements
 
@@ -30,7 +34,7 @@ ollama pull gemma3:4b
 ```
 project_root/
 ├── model-cn/
-│   └── vosk-model-cn-0.22/
+│   └── vosk-model-cn-0.22/  
 ```
 
 ---
