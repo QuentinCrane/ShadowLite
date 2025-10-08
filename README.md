@@ -65,6 +65,5 @@ Once the interface is running, you can interact in two modes:
 - The recognized speech will appear in the top-left corner of the screen.
 
 ---
----
 ### Some solutions  
 maybe you need to manually  `ollama serve`  in the terminal to active llm  
