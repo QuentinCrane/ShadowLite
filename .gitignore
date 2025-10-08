@@ -205,3 +205,45 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.build/
+dist/
+.eggs/
+*.egg-info/
+
+# Virtual env / deps
+venv/
+.env
+.venv/
+pip-wheel-metadata/
+
+# Logs / cache
+*.log
+.cache/
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Assets & models (按需调整)
+# 如果改用 LFS/Release/启动下载，就忽略本地副本
+model*/
+*.onnx
+*.pt
+*.bin
+*.ckpt
+*.tflite
+*.npz
+*.npy
+fonts/
+shadow_play_material/
+workbackground/
+
