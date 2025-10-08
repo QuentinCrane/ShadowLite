@@ -7,7 +7,7 @@ from extends import zb_x, zb_y
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose()
 
-# 需要采样的视频名称
+# the video you want to sample
 video_name = "normal"
 
 video_path = f"input_mp4/{video_name}.mp4"
@@ -57,7 +57,7 @@ def calculate_special_points(landmarks, frame_shape):
     upper_neck_y = (thorax_y + landmarks[0].y * h) / 2
 
     head_top_x = landmarks[0].x * w
-    head_top_y = landmarks[0].y * h - 0.125 * h  # 上移12.5%画面高度
+    head_top_y = landmarks[0].y * h - 0.125 * h
 
     return {
         "pelvis": (pelvis_x, pelvis_y),
@@ -110,9 +110,9 @@ try:
         frame_count += 1
 
 except Exception as e:
-    print(f"处理出错: {str(e)}")
+    print(f"ERROR: {str(e)}")
 finally:
     cap.release()
     with open(f"{video_name}.json", "w") as f:
         json.dump(output_data, f, indent=2)
-    print("处理完成，数据已保存")
+    print("The process is finished.")

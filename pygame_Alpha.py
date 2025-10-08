@@ -4,18 +4,18 @@ import pygame
 import time
 import statistics as st
 
-# 调试模式开关,开启或关闭当前播放json文件的帧数和名字
+# Debug mode switch
 DEBUG_MODE = False
 
-SCALE_FACTOR = 0.79  # 缩放因子，比如缩小为79%
+SCALE_FACTOR = 0.79
 
-BACKGROUND_IMG = "workbackground/stage.jpg"  # 背景图路径
-MATERIAL_ROOT = Path("shadow_play_material")  # 材料图片根目录
+BACKGROUND_IMG = "workbackground/stage.jpg"
+MATERIAL_ROOT = Path("shadow_play_material")
 VIDEO_NAME = "demo"
-OUTPUT_DIR = f"output_frames_png_{VIDEO_NAME}"  # 输出帧图片的目录名
-SHOW_PIVOTS = False # 是否显示枢轴点（pivot）
-SHOW_JOINTS = False  # 是否显示关节点
-paused = False       # 是否暂停动画播放
+OUTPUT_DIR = f"output_frames_png_{VIDEO_NAME}"
+SHOW_PIVOTS = False
+SHOW_JOINTS = False
+paused = False
 JsonList = [
     "actions/idle.json"
             ]
@@ -24,7 +24,7 @@ PART_NAMES = [
     "right_elbow", "right_wrist", "left_elbow", "left_wrist"
 ]
 
-# 绘制顺序（数值越大越靠前）
+# Drawing sequence (the larger the value, the more forward）
 DRAW_ORDER = {
     "body": 3, "head": 2,
     "right_hip": 1, "right_knee": 3,
@@ -41,7 +41,6 @@ PART_PARAM = {
     "left_elbow": [0, 10, 0, 0], "left_wrist": [0, 0, 0, 0]
 }
 
-# 每个部件连接的关节名（起点，终点）
 PART_CONNECT = {
     "body": ("upper_neck", "pelvis"),
     "head": ("head_top", "upper_neck"),
