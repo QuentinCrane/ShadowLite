@@ -12,7 +12,10 @@ A lightweight, dual-agent interaction system for 2D shadow puppetry digital huma
 </p>
 
 
-https://github.com/user-attachments/assets/b3130aa4-ccf3-402f-bdf9-b28a18996320
+
+https://github.com/user-attachments/assets/3a2d0490-3b52-4591-8819-b9ed14c3909c
+
+
 
 
 ## Requirements
@@ -65,6 +68,5 @@ Once the interface is running, you can interact in two modes:
 - The recognized speech will appear in the top-left corner of the screen.
 
 ---
-### Demo picture
-<img width="1800" height="1040" alt="Snipaste_2025-07-19_12-10-16" src="https://github.com/user-attachments/assets/b817d3f7-a422-4d03-8d41-ae33974ad774" />
-
+### Some solutions  
+maybe you need to manually  `ollama serve`  in the terminal to active llm  
