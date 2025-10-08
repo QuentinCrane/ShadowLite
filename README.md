@@ -12,7 +12,10 @@ A lightweight, dual-agent interaction system for 2D shadow puppetry digital huma
 </p>
 
 
-https://github.com/user-attachments/assets/b3130aa4-ccf3-402f-bdf9-b28a18996320
+
+https://github.com/user-attachments/assets/3a2d0490-3b52-4591-8819-b9ed14c3909c
+
+
 
 
 ## Requirements
